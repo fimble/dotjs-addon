@@ -6,9 +6,9 @@
         // bail out if we're in an iframe
         if (window.frameElement) return;
         
-        if (msg.jquery) {
-            eval(msg.jquery);
-        }
+        //if (msg.jquery) {
+            //eval(msg.jquery);
+        //}
 
         if (msg.js) {
             eval(msg.js);
